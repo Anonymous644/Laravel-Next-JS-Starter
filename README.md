@@ -44,6 +44,15 @@ Before Cloning on Windows, Make Sure You Have:
 
 ## Run Sail (Docker/Docker-compose)
 
+    First Time Only
+
+-   Duplicate .env.example and rename it to .env
+
+-   Run Command
+-   ./vendor/bin/sail artisan key:generate
+
+    To Run Sail
+
 -   [ ] ./vendor/bin/sail [up]()
 -   or
 -   [ ] ./vendor/bin/sail [up]() [-d]() (To Run In Detatched Mode)
