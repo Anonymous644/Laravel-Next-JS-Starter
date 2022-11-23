@@ -1,0 +1,1 @@
+bash ./vendor/laravel/sail/bin/sail up
